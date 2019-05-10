@@ -26,7 +26,8 @@ Add your answers to the questions below.
 
 7) What is the runtime complexity of your optimized code in `names.py`?
 
-    - O(n)
+    - O(n) for dictonary method
+    - O(log n) for binary search tree
 
 8) What is the space complexity of your optimized code in `names.py`?
 

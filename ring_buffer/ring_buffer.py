@@ -12,9 +12,7 @@ class RingBuffer:
             self.current += 1
 
     def get(self):
-        # if None in self.storage:
-        #     self.storage.remove(None)
-        return self.storage
+        return [i for i in self.storage if i]
 
 
 # The following was for my own testing
